@@ -10,11 +10,8 @@ configMapGenerator:
       usernameSecret:
         key: git_username
         name: autopilot-secret
-  name: argocd-cm
-- behavior: merge
-  literals:
   - | 
-    resource.compareoptions=- ignoreAggregatedRoles: true
+    resource.compareoptions=ignoreAggregatedRoles: true
   name: argocd-cm
 kind: Kustomization
 namespace: argocd
