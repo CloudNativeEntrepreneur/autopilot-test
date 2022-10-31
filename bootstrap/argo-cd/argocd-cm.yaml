@@ -1,11 +1,4 @@
-repository.credentials: |
-  - passwordSecret:
-      key: git_token
-      name: autopilot-secret
-    url: https://github.com/
-    usernameSecret:
-      key: git_username
-      name: autopilot-secret
+
 resource.compareoptions: |
   # disables status field diffing in specified resource types
   ignoreAggregatedRoles: true
