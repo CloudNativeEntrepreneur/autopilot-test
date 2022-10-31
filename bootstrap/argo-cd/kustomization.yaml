@@ -14,7 +14,7 @@ configMapGenerator:
 - behavior: merge
   literals:
   - | 
-    resource.compareoptions= ignoreAggregatedRoles: true
+    resource.compareoptions=- ignoreAggregatedRoles: true
   name: argocd-cm
 kind: Kustomization
 namespace: argocd
