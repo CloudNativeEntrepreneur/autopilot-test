@@ -11,7 +11,7 @@ configMapGenerator:
         key: git_username
         name: autopilot-secret
   - |
-    resource.compareoptions: |
+    resource.compareoptions=- |
       # disables status field diffing in specified resource types
       ignoreAggregatedRoles: true
   name: argocd-cm
