@@ -1,3 +1,0 @@
-resource.compareoptions: |
-  # disables status field diffing in specified resource types
-  ignoreAggregatedRoles: true
