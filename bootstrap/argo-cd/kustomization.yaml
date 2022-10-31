@@ -10,6 +10,8 @@ configMapGenerator:
       usernameSecret:
         key: git_username
         name: autopilot-secret
+  files:
+  - config.yaml
   name: argocd-cm
 kind: Kustomization
 namespace: argocd
